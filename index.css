@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cyan;
+}
+#heading{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#t1{
+    color: Blue;
+    text-decoration: underline;
+}
+#t3{
+    color: red;
+    text-decoration: underline;
+}
+#t2{
+    color: rgb(22, 214, 22);
+    text-decoration: underline;
+}
+
+#container{
+    width: 50%;
+    height: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    position: relative;
+    margin: 70px 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./stopwatch.svg');
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+
+
+#timer{
+    margin-bottom: 50px;
+}
+
+#minutes{
+    font-size: 50px;
+}
+
+#evaluater{
+    font-size: 50px;
+}
+
+#seconds{
+    font-size: 50px;
+}
+
+#button-Start{
+    font-family:sans-serif;
+    color: blue;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    
+}    
+#button-Stop{
+    font-family:sans-serif;
+    margin: 10px;
+    padding: 5px 20px;
+    color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+
+}
+#button-Reset{
+    font-family:sans-serif;
+    margin: 10px;
+    padding: 5px 20px;
+    color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
+#button-Start:hover{
+    background-color: blue;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px rgb(3, 227, 243);
+    color: white;
+    
+}
+
+#button-Stop:hover{
+    background-color: green;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px rgb(3, 227, 243);
+    color: white;
+    
+}
+#button-Reset:hover{
+    background-color: red;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px rgb(3, 227, 243);
+    color: white;
+    
+}
